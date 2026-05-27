@@ -1,5 +1,5 @@
 # Architecture Overview
-## Optum Enterprise HR Knowledge Copilot
+## Enterprise HR Knowledge Copilot
 
 ---
 
@@ -48,7 +48,7 @@ Backend(NodeJS + Express JS) localhost: 3001
 |---|---|
 | Google Gemini 1.5 Flash | LLM for response generation |
 | In-Memory Vector Store | Policy document retrieval |
-| HR Policies JSON | 12 Optum HR policy documents |
+| HR Policies JSON | 12 HR policy documents |
 | RAG Pipeline | Grounded response generation |
 
 ## Contract Screenshot
@@ -82,7 +82,7 @@ Employee clicks 👍/👎 → POST /api/chat/feedback
 | In-memory vector store | Pinecone / Weaviate / pgvector |
 | JSON file knowledge base | PostgreSQL / MongoDB |
 | Single Node.js process | Kubernetes + horizontal scaling |
-| No authentication | Optum SSO / OAuth 2.0 |
+| No authentication |  SSO / OAuth 2.0 |
 | Console logging | ELK Stack / Datadog |
 | No caching | Redis for frequent queries |
 | Free Gemini tier | Gemini paid tier / Azure OpenAI |
