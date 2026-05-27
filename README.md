@@ -8,14 +8,7 @@ Built with **React + TypeScript** frontend, **Node.js + Express** backend, **Goo
 
 ## Screenshots
 ## Contract Screenshot
-![img.png](img.png)
-
-![img_1.png](img_1.png)
-
-![img_2.png](img_2.png)
-
-![img_3.png](img_3.png)
-
+Under architecture overview(docs/architecture.md)
 
 ## Architecture Overview
 __________________________________
