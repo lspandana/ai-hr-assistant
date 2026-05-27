@@ -29,7 +29,7 @@ Format your responses clearly with bullet points or numbered lists where appropr
             ];
 
             const response = await client.chat.completions.create({
-                model: 'gemini-2.5-flash-latest',
+                model: 'gemini-2.0-flash',
                 messages,
                 temperature: 0.2,
                 max_tokens: 1000
