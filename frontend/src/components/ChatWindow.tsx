@@ -31,10 +31,10 @@ const ChatWindow: React.FC<ChatWindowProps> = ({
             🏥
           </div>
           <h2 className="text-xl font-semibold text-optum-blue mb-2">
-            Optum HR Assistant
+            HR Assistant
           </h2>
           <p className="text-gray-500 text-sm max-w-sm">
-            Ask me anything about Optum HR policies, leave management, onboarding, compliance, and more.
+            AAsk me anything about HR policies, leave management, onboarding, compliance, and more.
           </p>
         </div>
       )}

@@ -20,10 +20,10 @@ const App: React.FC = () => {
       <header className="bg-optum-blue text-white px-6 py-4 flex items-center justify-between shadow-md">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-optum-orange rounded-lg flex items-center justify-center text-white font-bold text-lg">
-            O
+            HR
           </div>
           <div>
-            <h1 className="text-lg font-bold">Optum HR Assistant</h1>
+            <h1 className="text-lg font-bold">HR Assistant</h1>
             <p className="text-xs text-blue-200">
               Powered by Gemini AI • Enterprise Knowledge Copilot
             </p>
