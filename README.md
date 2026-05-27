@@ -1,4 +1,4 @@
-# 🏥 HR Assistant — Enterprise Knowledge Copilot
+# HR Assistant — Enterprise Knowledge Copilot
 
 An AI-powered internal HR chatbot built for Healthcare employees to instantly access HR policies, leave information, compliance guidelines, and workplace procedures.
 
@@ -6,17 +6,18 @@ Built with **React + TypeScript** frontend, **Node.js + Express** backend, **Goo
 
 ---
 
-## 📸 Screenshots
+## Screenshots
+## Contract Screenshot
+![img.png](img.png)
 
-### Chat Interface
-- Health-branded UI with orange and blue color scheme
-- Suggested questions for quick access
-- Source attribution showing referenced policies
-- 👍👎 feedback controls for Responsible AI
+![img_1.png](img_1.png)
 
----
+![img_2.png](img_2.png)
 
-## 🏗️ Architecture Overview
+![img_3.png](img_3.png)
+
+
+## Architecture Overview
 __________________________________
 |   React + TypeScript Frontend   │
 │         localhost:3000          │
@@ -38,7 +39,7 @@ ___________________________________
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -50,7 +51,7 @@ ___________________________________
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -62,7 +63,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🔑 API Key Setup
+## API Key Setup
 
 This project requires a **Google Gemini API key** (free).
 
@@ -73,7 +74,7 @@ This project requires a **Google Gemini API key** (free).
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -132,7 +133,7 @@ The app will automatically open at **http://localhost:3000** ✅
 
 ---
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Health Check
 ```bash
@@ -234,7 +235,7 @@ ai-hr-assistant/
 
 ---
 
-## 🔐 Security
+## Security
 
 - API keys stored in `.env` file — never committed to Git
 - `.env` is listed in `.gitignore`
@@ -244,7 +245,7 @@ ai-hr-assistant/
 
 ---
 
-## ⚖️ Responsible AI
+## Responsible AI
 
 - All responses grounded in actual HR policy documents
 - Source attribution on every AI response
@@ -257,7 +258,7 @@ See [docs/responsible-ai.md](docs/responsible-ai.md) for full governance details
 
 ---
 
-## 📈 Scale-Out Considerations
+## Scale-Out Considerations
 
 | Current POC | Production Ready |
 |---|---|
@@ -270,7 +271,7 @@ See [docs/responsible-ai.md](docs/responsible-ai.md) for full governance details
 
 ---
 
-## 🔧 Design Rationale
+## Design Rationale
 
 ### Why RAG over Fine-tuning?
 RAG allows the knowledge base to be updated without retraining the model. Perfect for HR policies that change frequently.
@@ -286,7 +287,7 @@ Node.js shares the JavaScript ecosystem with the React frontend, reducing contex
 
 ---
 
-## 📝 Assumptions & Limitations
+## Assumptions & Limitations
 
 - Dataset is synthetic — generated to represent realistic HR policies
 - No real employee data is used anywhere in the system
@@ -296,7 +297,7 @@ Node.js shares the JavaScript ecosystem with the React frontend, reducing contex
 
 ---
 
-## 🔮 What I Would Improve With More Time
+## What I Would Improve With More Time
 
 1. **Semantic embeddings** for better retrieval accuracy
 2. **Authentication** via SSO
@@ -310,13 +311,3 @@ Node.js shares the JavaScript ecosystem with the React frontend, reducing contex
 10. **Analytics dashboard** for HR team to monitor usage
 
 ---
-
-## 👩‍💻 Author
-
-**Spandana Lekkala**
-AI Fullstack Developer
-[GitHub](https://github.com/lspandana/ai-hr-assistant)
-
----
-
-*Built as part of AI Fullstack Developer Assignment — May 2026*
